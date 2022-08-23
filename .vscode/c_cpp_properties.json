@@ -1,0 +1,70 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/include",
+                "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/src",
+                "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/AccelStepper/src",
+                "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/MD_Parola/src",
+                "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/MD_MAX72XX/src",
+                "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/FreeRTOS/src",
+                "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/DirectIO",
+                "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/GeekFactory Shell Library",
+                "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/LiquidCrystal_I2C",
+                "/home/nuxarch/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/nuxarch/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/nuxarch/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/nuxarch/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/home/nuxarch/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/nuxarch/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/nuxarch/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/include",
+                    "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/src",
+                    "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/AccelStepper/src",
+                    "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/MD_Parola/src",
+                    "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/MD_MAX72XX/src",
+                    "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/FreeRTOS/src",
+                    "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/DirectIO",
+                    "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/GeekFactory Shell Library",
+                    "/home/nuxarch/3TRAINING_VEDC/TrainerMCU/.pio/libdeps/megaatmega2560/LiquidCrystal_I2C",
+                    "/home/nuxarch/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/nuxarch/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/nuxarch/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/nuxarch/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/home/nuxarch/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/nuxarch/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/nuxarch/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60104",
+                "ARDUINO_AVR_MEGA2560",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/nuxarch/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,8 @@
+SPI
+marcoschwartz/LiquidCrystal_I2C @ ^1.1.4
+waspinator/AccelStepper@^1.61
+feilipu/FreeRTOS @ 10.4.6-8
+Wire
+mmarchetti/DirectIO @ ^1.2.0
+majicdesigns/MD_Parola@^3.6.1
+geekfactory/GeekFactory Shell Library @ ^1.2.0

@@ -1,0 +1,16 @@
+
+MD_Parola P = MD_Parola(HARDWARE_TYPE, DATA_PIN, CLK_PIN, CS_PIN, MAX_DEVICES);
+
+void setup(void)
+{
+  P.begin();
+}
+
+void loop(void)
+{
+  if (P.displayAnimate()){
+    P.displayText("POLI", PA_CENTER, P.getSpeed(), P.getPause(), PA_SCROLL_DOWN, PA_SCROLL_UP);
+    P.setZoneEffect(0, true, PA_FLIP_LR);
+    P.setZoneEffect(0, true, PA_FLIP_UD);
+  }
+}
